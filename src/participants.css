@@ -1,0 +1,39 @@
+.participant {
+    display: flex;
+}
+
+.participant-img-container {
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: red;
+}
+
+.participant-img-container img {
+    width: 100%
+}
+
+.participant-text h2 {
+    font-size: 0.8rem;
+}
+
+.participant-text span {
+    color: gray;
+}
+
+.in-session-true {
+    display: inline-block;
+    background: green;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+
+.in-session-false {
+    display: inline-block;
+    background: gray;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}

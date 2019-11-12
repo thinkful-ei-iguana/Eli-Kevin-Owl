@@ -1,0 +1,8 @@
+.stage-sidebar {
+    width: 30vw;
+    overflow-y: scroll;
+}
+
+.sidebar-controls div {
+    width: 100%;
+}

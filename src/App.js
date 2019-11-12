@@ -4,12 +4,12 @@ import Participants from './participants';
 import Stage from './stage';
 import Chat from './chat';
 import store from "./store";
+import Sidebar from './sidebar'
 
 function App() {
   return ( <section>
-    <Participants store={store}></Participants>
+    <Sidebar store={store}></Sidebar>
     <Stage store={store}></Stage>
-    <Chat store={store}></Chat>
   </section> );
 }
 

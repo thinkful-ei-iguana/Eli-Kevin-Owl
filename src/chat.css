@@ -1,0 +1,36 @@
+.all-chat {
+    width: 100%;
+    display: none;
+}
+
+ol {
+    list-style: none;
+}
+
+.chat-avatar {
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: red;
+}
+
+.chat-avatar img {
+    width: 100%;
+}
+
+.chat-message {
+    display: flex;
+}
+
+.chat-message h2 {
+    font-size: 0.8rem;
+}
+
+.chat-message h2 span {
+    color: gray;
+}
+
+.chat-reaction {
+    color: gray;
+}

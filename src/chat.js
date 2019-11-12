@@ -39,7 +39,7 @@ export default class Chat extends Component {
         if (m.type === "message") {
           return (
             <li key={i} className="chat-message">
-              <div>
+              <div className="chat-avatar">
                 <img alt="user avatar" src={participantAvatar} />
               </div>
               <div>
@@ -92,7 +92,7 @@ export default class Chat extends Component {
       });
 
     return (
-      <section>
+      <section className="all-chat">
         <ol>{messages}</ol>
       </section>
     );

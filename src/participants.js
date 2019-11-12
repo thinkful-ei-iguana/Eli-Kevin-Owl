@@ -7,9 +7,11 @@ export default class Participants extends Component {
     const people = this.props.store.participants
       .filter(u => u.inSession === true)
       .map(m => (
-        <div key={m.id}>
-          <img alt="user avatar" src={m.avatar} />
-          <div>
+        <div className="participant" key={m.id}>
+          <div className="participant-img-container">
+            <img alt="user avatar" src={m.avatar} />
+          </div>
+          <div className="participant-text">
             <h2>{m.name}</h2>
             <div>
               <b className={`in-session-${m.inSession}`} />
@@ -20,6 +22,6 @@ export default class Participants extends Component {
         </div>
       ));
 
-    return <section className="stage-sidebar">{people}</section>;
+    return <section className="all-participants">{people}</section>;
   }
 }
