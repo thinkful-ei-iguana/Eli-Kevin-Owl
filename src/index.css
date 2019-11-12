@@ -1,12 +1,12 @@
-@import './participants.css';
-@import './sidebar.css';
-@import './chat.css';
+@import "./participants.css";
+@import "./sidebar.css";
+@import "./chat.css";
+@import "./stage.css";
 
-
-*{
-margin: 0;
-padding: 0;
-box-shadow: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
 }
 
 body {
@@ -23,3 +23,7 @@ code {
     monospace;
 }
 
+section.main-section {
+  display: flex;
+  height: 100vh;
+}
